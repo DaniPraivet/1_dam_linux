@@ -9,6 +9,7 @@
 `fdisk -l /dev/sda` -> ver datos del primer disco <br> 
 `fdisk -l /dev/sda2` -> ver datos del primer disco, segunda partición <br>
 <br>
+### Usuarios
 `who` -> quien está conectado al sistema <br>
 `who -a` -> muestra la fecha de arranque del sistema<br>
 <br>
