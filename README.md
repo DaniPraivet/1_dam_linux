@@ -3,13 +3,17 @@
 
 ### Particiones
 `cfdisk` -> editor + visualizador de particiones <br>
+<br>
 `fdisk` -> visualizar particiones <br>
 `fdisk -l` -> lista de las particiones <br>
 `fdisk -l /dev/sda` -> ver datos del primer disco <br> 
 `fdisk -l /dev/sda2` -> ver datos del primer disco, segunda partición <br>
+<br>
 `who` -> quien está conectado al sistema <br>
 `who -a` -> muestra la fecha de arranque del sistema<br>
+<br>
 `whoami` -> muestra el nombre de usuario<br>
+<br>
 `uname`<br>
 `uname --all`<br>
 `uname --nodename`<br>
