@@ -2,8 +2,8 @@
 
 
 ### Particiones
-`cfdisk` -> editor + visualizador de particiones
-`fdisk` -> visualizar particiones
-`fdisk -l` -> lista de las particiones
-`fdisk -l /dev/sda` -> ver datos del primer disco 
-`fdisk -l /dev/sda2` -> ver datos del primer disco, segunda partición
+`cfdisk` -> editor + visualizador de particiones <br>
+`fdisk` -> visualizar particiones <br>
+`fdisk -l` -> lista de las particiones <br>
+`fdisk -l /dev/sda` -> ver datos del primer disco <br> 
+`fdisk -l /dev/sda2` -> ver datos del primer disco, segunda partición <br>
