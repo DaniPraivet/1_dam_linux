@@ -7,18 +7,18 @@
 `fdisk -l` -> lista de las particiones <br>
 `fdisk -l /dev/sda` -> ver datos del primer disco <br> 
 `fdisk -l /dev/sda2` -> ver datos del primer disco, segunda partición <br>
-`who` -> quien está conectado al sistema
-`who -a` -> muestra la fecha de arranque del sistema
-`whoami` -> muestra el nombre de usuario
-`uname`
-`uname --all`
-`uname --nodename`
-`uname -r`
-`uname -v`
-
-`lsb_release`
-`lsb_release -i` -> id del distribuidor
-`lsb_release -d` -> descripción
-`lsb_release -r` -> numero de version
-`lsb_release -c` -> nombre de la versión
-`lsb_release -idrc` -> todo lo anterior
+`who` -> quien está conectado al sistema <br>
+`who -a` -> muestra la fecha de arranque del sistema<br>
+`whoami` -> muestra el nombre de usuario<br>
+`uname`<br>
+`uname --all`<br>
+`uname --nodename`<br>
+`uname -r`<br>
+`uname -v`<br>
+<br>
+`lsb_release`<br>
+`lsb_release -i` -> id del distribuidor<br>
+`lsb_release -d` -> descripción<br>
+`lsb_release -r` -> numero de version<br>
+`lsb_release -c` -> nombre de la versión<br>
+`lsb_release -idrc` -> todo lo anterior<br>
