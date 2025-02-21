@@ -32,6 +32,7 @@
 `useradd` -> añadir usuarios via terminal <br>
 `useradd -m <nombre de usuaro>` -> crear un `/home` para el usuario `<nombre de usuario>`<br>
 `useradd -e 2025-03-22 <nombre de usuario>` <br> <br>
+
 `sudo cat /etc/passwd | grep "<nombre de usuario>"` -> para mostrar el usuario que quieras <br><br>
 `passwd <nombre de usuario>` -> cambiar contraseña del usuario <br>
 `passwd <nombre de usuario> -d` -> Eliminar la contraseña<br>
@@ -46,4 +47,28 @@
 `shutdown -r` -> lo mismo que reboot
 `shutdown -c` -> cancelar
  ### Gestión de archivos y ficheros
-`<`
+`adduser` -> crear usuario al sistema
+`adduser --system usuariosistema` -> crear usuario del sistema
+`adduser --uid 1010 usuario2` -> crear usuario con un uid específico
+`adduser --home <ruta de la carpeta /home>` -> crear usuario con una carpeta /home en una ruta específica
+
+`deluser` -> eliminar usuario del sistema
+`deluser --remove-home` -> eliminar carpeta del usuario
+`deluser --remove-all-files` -> eliminar todos los archivos pertenecientes al usuario
+
+`usermod` -> modificar cuenta de usuario
+`usermod -d` -> cambiar directorio personal del usuario 
+`usermod -m` -> mueve los contenidos del directorio
+``
+
+`addgroup` -> añadir un grupo al sistema
+`addgroup --system` -> añade grupo al sistema
+`addgroup --gid` -> le pone un id específico
+
+`delgroup` -> eliminar grupo del sistema
+`delgroup --only-if-empty` -> lo elimina solo si no tiene ningún usuario
+
+`groupmod` -> modifica el grupo de usuarios
+`groupmod -g` -> cambias el id del grupo
+`groupmod -n` -> modifica el nombre del grupo
+
